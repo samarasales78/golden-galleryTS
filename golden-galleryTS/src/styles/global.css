@@ -1,0 +1,91 @@
+/* VARIÁVEIS DE COR */
+:root {
+  --preto: #000000;
+  --dourado: #d4af37;
+  --dourado-claro: #f2d675;
+  --vermelho: #7a1f1f;
+  --cinza: #b5b5b5;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--preto);
+}
+
+* {
+  cursor: url("/img/icons8-cursor-32.png") 0 0, auto;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  padding: 1.2rem 0;
+  background-color: var(--preto);
+
+  z-index: 100;
+}
+
+.navbar a {
+  position: relative;
+
+  font-size: 0.7rem;
+  letter-spacing: 0.18rem;
+  text-transform: uppercase;
+
+  color: var(--dourado);
+  text-decoration: none;
+
+  padding-bottom: 4px;
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+
+.navbar a:hover {
+  opacity: 1;
+}
+
+/* tracinho fino */
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+
+  width: 0;
+  height: 1px;
+  background-color: var(--dourado);
+
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+/* ids do navbar */
+#home {
+  scroll-margin-top: 7rem;
+}
+
+#desenhos {
+  scroll-margin-top: 5rem;
+}
+
+#sobre {
+  scroll-margin-top: 3rem;
+}
+
+#contato {
+  scroll-margin-top: 3rem;
+}
