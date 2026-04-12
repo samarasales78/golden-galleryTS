@@ -203,3 +203,42 @@ body {
 .hero-image {
   flex: 0 0 auto;
 }
+
+/* TÍTULO EXPLORE POR CATEGORIAS */
+.explore-categories {
+  position: relative;
+  z-index: 3;
+
+  max-width: 1200px;
+  margin: -200px auto 40px;
+  padding-inline: clamp(16px, 4vw, 48px);
+  margin-left: 1.0rem;
+}
+
+.explore-top {
+  display: block;
+  font-size: 0.6rem;
+  letter-spacing: 0.18rem;
+  color: var(--dourado);
+  opacity: 0.8;
+  margin-bottom: 6px;
+}
+
+.explore-title {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.4rem, 3vw, 2.2rem);
+  font-weight: 500;
+  color: var(--dourado);
+  margin: 0;
+  line-height: 1.1;
+  position: relative;
+}
+
+.explore-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 1px;
+  margin-top: 10px;
+  background-color: var(--dourado);
+}
