@@ -242,3 +242,64 @@ body {
   margin-top: 10px;
   background-color: var(--dourado);
 }
+
+/* FILTROS — selecionar categorias */
+.filters {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2.5rem;
+  position: relative;
+  padding-left: 4rem;
+  z-index: 4;
+}
+
+.filters select {
+  background-color: rgba(20, 20, 20, 0.75);
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  width: 270px;
+  font-size: 1.0rem;
+  letter-spacing: 0.1rem;
+  padding: 1.2rem 4.5rem 1.2rem 2rem;
+  border-radius: 16px;
+  border: 1px solid rgba(202, 164, 106, 0.45);
+  cursor: pointer;
+
+  transition:
+    border 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
+}
+
+.filters select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 5rem;
+  padding: 0.7rem 3.2rem 0.7rem 1.4rem;
+  border-radius: 16px;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 1.8rem center;
+  background-size: 1.3rem;
+}
+
+/* hover */
+.filters select:hover {
+  border-color: rgba(202, 164, 106, 0.8);
+  box-shadow: 0 8px 25px rgba(202, 164, 106, 0.15);
+  transform: translateY(-2px);
+}
+
+/* focus */
+.filters select:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(202, 164, 106, 0.25);
+}
+
+/* opções */
+.filters option {
+  background-color: #111;
+  color: #fff;
+}
