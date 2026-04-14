@@ -231,6 +231,60 @@ const drawings: Drawing[] = [
     category: "ilustracao",
     year: "2023"
   },
+  {
+    title: "Farol",
+    image: "img/farol.jpeg",
+    category: "arquitetura",
+    year: "2024"
+  },
+  {
+    title: "Jisoo (BLACKPINK)",
+    image: "img/jisoo.jpeg",
+    category: "realismo",
+    year: "2022"
+  },
+  {
+    title: "Lord I'm 500 miles from my home",
+    image: "img/eren.jpeg",
+    category: "anime",
+    year: "2026"
+  },
+  {
+    title: "Attack on Titan fanart",
+    image: "img/attackontitan.jpeg",
+    category: "anime",
+    year: "2025"
+  },
+  {
+    title: "Red Hot Chilli Cat",
+    image: "img/redhotcat.jpeg",
+    category: "ilustracao",
+    year: "2025"
+  },
+  {
+    title: "Angra",
+    image: "img/angra.jpeg",
+    category: "Conchas e Promessas",
+    year: "2025"
+  },
+  {
+    title: "Titanic, 14 de abril de 1912",
+    image: "img/titanic.jpeg",
+    category: "ilustracao",
+    year: "2024"
+  },
+  {
+    title: "O menino, a toupeira, a raposa e o cavalo",
+    image: "img/meninoetoupeira.jpeg",
+    category: "ilustracao",
+    year: "2024"
+  },
+  {
+    title: "Mini Goku fanart",
+    image: "img/minigoku.jpeg",
+    category: "anime",
+    year: "2024"
+  },
 ];
 
 /* EVOLUÇÃO */
