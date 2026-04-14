@@ -19,7 +19,6 @@ function About() {
 
     observer.observe(section);
 
-    // limpeza (boa prática)
     return () => {
       observer.unobserve(section);
     };
