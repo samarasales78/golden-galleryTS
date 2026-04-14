@@ -285,6 +285,72 @@ const drawings: Drawing[] = [
     category: "anime",
     year: "2024"
   },
+  {
+    title: "Tony Stark",
+    image: "img/ironman.jpeg",
+    category: "ilustracao",
+    year: "2024"
+  },
+  {
+    title: "Hinata Naruto fanart",
+    image: "img/hinatanaruto.jpeg",
+    category: "anime",
+    year: "2023"
+  },
+  {
+    title: "Hinata fanart",
+    image: "img/hinata.jpeg",
+    category: "anime",
+    year: "2022"
+  },
+  {
+    title: "Rapunzel e Flynn Rider",
+    image: "img/rapunzel.jpeg",
+    category: "ilustracao",
+    year: "2022"
+  },
+  {
+    title: "Tinker Bell",
+    image: "img/tinker.jpeg",
+    category: "ilustracao",
+    year: "2026"
+  },
+  {
+    title: "A Caminho da Lua",
+    image: "img/feifei.jpeg",
+    category: "ilustracao",
+    year: "2022"
+  },
+  {
+    title: "Gato",
+    image: "img/gato.jpeg",
+    category: "ilustracao",
+    year: "2024"
+  },
+  {
+    title: "O Pássaro de Agosto",
+    image: "img/passaro.jpeg",
+    category: "ilustracao",
+    year: "2024"
+  },
+  {
+    title: "Alma livre",
+    image: "img/moçaborboleta.jpeg",
+    category: "realismo",
+    year: "2024"
+  },
+  {
+    title: "Chaves",
+    image: "img/chaves.jpeg",
+    category: "realismo",
+    year: "2022"
+  },
+  {
+    title: "Jennie (BLACKPINK)",
+    image: "img/jennie.jpeg",
+    category: "realismo",
+    year: "2022"
+  },
 ];
 
 /* EVOLUÇÃO */
