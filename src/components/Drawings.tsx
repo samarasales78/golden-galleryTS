@@ -44,7 +44,193 @@ const drawings: Drawing[] = [
     image: "/img/amelie.jpeg",
     category: "realismo",
     year: "2025"
-  }
+  },
+  {
+    title: "Carpas (koi) japonesas",
+    image: "img/carpas.jpeg",
+    category: "ilustracao",
+    year: "2024"
+  },
+  {
+    title: "O Estranho Mundo de Jack",
+    image: "img/timburton.jpeg",
+    category: "ilustracao",
+    year: "2025"
+  },
+  {
+    title: "Coliseu - Itália",
+    image: "img/arquitetura2.jpeg",
+    category: "arquitetura",
+    year: "2024"
+  },
+  {
+    title: "I  will always choose you - Damon Salvatore",
+    image: "img/tvd.jpeg",
+    category: "ilustracao",
+    year: "2024"
+  },
+  {
+    title: "Pinheiros sob o Céu Estrelado",
+    image: "img/pinheiros.jpeg",
+    category: "aquarela",
+    year: "2024"
+  },
+  {
+    title: "Última luz",
+    image: "img/crepusculo.jpeg",
+    category: "aquarela",
+    year: "2024"
+  },
+  {
+    title: "Cosmos",
+    image: "img/cosmos.jpeg",
+    category: "aquarela",
+    year: "2026"
+  },
+  {
+    title: "Refúgio",
+    image: "img/refugio.jpeg",
+    category: "aquarela",
+    year: "2026"
+  },
+  {
+    title: "Folhagem em Azul",
+    image: "img/folhas.jpeg",
+    category: "aquarela",
+    year: "2024"
+  },
+  {
+    title: "Espelho da Lua",
+    image: "img/mar.jpeg",
+    category: "aquarela",
+    year: "2024"
+  },
+  {
+    title: "Chama Viva",
+    image: "img/capa.jpeg",
+    category: "anime",
+    year: "2023"
+  },
+  {
+    title: "Whatever our souls are made of, his and mine are the same.",
+    image: "img/wuthering.jpeg",
+    category: "ilustracao",
+    year: "2026"
+  },
+  {
+    title: "Catedral de Berlim - Alemanha",
+    image: "img/berlim.jpeg",
+    category: "arquitetura",
+    year: "2024"
+  },
+  {
+    title: "Kimi no na wa Fanart",
+    image: "img/yourname.jpeg",
+    category: "anime",
+    year: "2025"
+  },
+  {
+    title: "Goku e Shenlong fanart",
+    image: "img/shenlong.jpeg",
+    category: "anime",
+    year: "2025"
+  },
+  {
+    title: "Goku e Gohan fanart",
+    image: "img/gokuegohan.jpeg",
+    category: "anime",
+    year: "2024"
+  },
+  {
+    title: "Akaza fanart (Demon Slayer)",
+    image: "img/akaza.jpeg",
+    category: "anime",
+    year: "2025"
+  },
+  {
+    title: "Iguro fanart (Demon Slayer)",
+    image: "img/iguro.jpeg",
+    category: "anime",
+    year: "2025"
+  },
+  {
+    title: "Taehyung",
+    image: "img/tae.jpeg",
+    category: "realismo",
+    year: "2024"
+  },
+  {
+    title: "Criança com capuz",
+    image: "img/baby.jpeg",
+    category: "realismo",
+    year: "2022"
+  },
+  {
+    title: "Anne with an E",
+    image: "img/anne.jpeg",
+    category: "realismo",
+    year: "2022"
+  },
+  {
+    title: "Cameron Boyce",
+    image: "img/cameronboyce.jpeg",
+    category: "realismo",
+    year: "2022"
+  },
+  {
+    title: "Jesus",
+    image: "img/jesus.jpeg",
+    category: "realismo",
+    year: "2025"
+  },
+  {
+    title: "'And it had all what art should be, unconscious, ideal and remote'",
+    image: "img/esculturas.jpeg",
+    category: "realismo",
+    year: "2026"
+  },
+  {
+    title: "Serena",
+    image: "img/moça.jpeg",
+    category: "realismo",
+    year: "2024"
+  },
+  {
+    title: "Mulher Maravilha",
+    image: "img/mulhermaravilha.jpeg",
+    category: "realismo",
+    year: "2022"
+  },
+  {
+    title: "Raposa em Aquarela",
+    image: "img/raposa.jpeg",
+    category: "ilustracao",
+    year: "2024"
+  },
+  {
+    title: "Casa abandonada, céu vermelho",
+    image: "img/casaabandonada.jpeg",
+    category: "arquitetura",
+    year: "2025"
+  },
+  {
+    title: "O túmulo está vazio.",
+    image: "img/pascoa.jpeg",
+    category: "realismo",
+    year: "2026"
+  },
+  {
+    title: "Arquitetura de Veneza",
+    image: "img/veneza.jpeg",
+    category: "arquitetura",
+    year: "2024"
+  },
+  {
+    title: "Alquímia das Almas",
+    image: "img/fav.jpeg",
+    category: "ilustracao",
+    year: "2023"
+  },
 ];
 
 /* EVOLUÇÃO */
@@ -68,11 +254,11 @@ function Drawings() {
     category === "evolucao"
       ? evolucaoDrawings
       : drawings.filter((item) => {
-          return (
-            (category === "all" || item.category === category) &&
-            (year === "all" || item.year === year)
-          );
-        });
+        return (
+          (category === "all" || item.category === category) &&
+          (year === "all" || item.year === year)
+        );
+      });
 
   return (
     <>
