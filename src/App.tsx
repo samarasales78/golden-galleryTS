@@ -1,7 +1,8 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Drawings from "./components/Drawings";
-import About from "./components/About";
+import About from "./components/About"; 
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Drawings />
       <About />
+      <Contact />
     </>
   );
 }

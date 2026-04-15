@@ -1,10 +1,13 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
-export function Contact() {
+export default function Contact() {
+  const footerRef = useRef<HTMLElement | null>(null);
+  const creditosRef = useRef<HTMLDivElement | null>(null);
+
   useEffect(() => {
-    const contatoElements = document.querySelectorAll(".footer, .creditos");
+    const elements = [footerRef.current, creditosRef.current];
 
-    const contatoObserver = new IntersectionObserver(
+    const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
@@ -15,18 +18,20 @@ export function Contact() {
       { threshold: 0.15 }
     );
 
-    contatoElements.forEach((el) => contatoObserver.observe(el));
+    elements.forEach((el) => {
+      if (el) observer.observe(el);
+    });
 
-    return () => {
-      contatoElements.forEach((el) => contatoObserver.unobserve(el));
-    };
+    return () => observer.disconnect();
   }, []);
 
   return (
-    <footer className="footer">
-      <div className="creditos">
-        <p>Seu conteúdo de contato aqui</p>
+    <section id="contato" ref={footerRef} className="footer">
+      <div ref={creditosRef} className="creditos">
+        <div className="share">
+
+        </div>
       </div>
-    </footer>
+    </section>
   );
 }
