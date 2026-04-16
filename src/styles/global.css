@@ -572,3 +572,37 @@ body {
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* ADAPTAÇÃO MOBILE */
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .hero-wrapper {
+    padding: 2rem 1.4rem;
+  }
+
+  .explore-categories {
+    margin-top: 1.5rem;
+    text-align: left;
+    padding-left: 0.3rem;
+  }
+
+  .category-covers {
+    margin-top: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .header section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar {
+    justify-content: center;
+  }
+
+}
