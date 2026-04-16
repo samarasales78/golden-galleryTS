@@ -564,3 +564,11 @@ body {
   opacity: 1;
   transform: scale(1.15);
 }
+
+/* direitos reservados */
+.creditos-text {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.6);
+}

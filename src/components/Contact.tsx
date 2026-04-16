@@ -29,7 +29,7 @@ export default function Contact() {
     <section id="contato" ref={footerRef} className="footer">
       <div ref={creditosRef} className="creditos">
         <div className="share">
-        <a
+          <a
             href="https://www.instagram.com/samarasales78?igsh=MWc5aHJjZTV6ODBraA=="
             target="_blank"
             rel="noreferrer"
@@ -78,6 +78,10 @@ export default function Contact() {
             />
           </a>
         </div>
+
+        <p className="creditos-text">
+          © 2026 Samara Sales - Todos os direitos reservados.
+        </p>
       </div>
     </section>
   );
