@@ -702,5 +702,26 @@ body {
       padding: 3rem 0 1.5rem; 
     }
   
-
+    /* REDES SOCIAIS */
+    .share {
+      display: flex;
+      justify-content: center; 
+      align-items: center;     
+      gap: 1.8rem;
+    }
+  
+    .share a img {
+      width: 28px;
+      height: auto;
+    }
+  
+    .share a img {
+      width: 28px;  
+      height: auto;
+    }
+  
+    .creditos {   /* direitos reservados */
+      font-size: 0.8rem;
+      padding-bottom: 1.5rem;
+    }
 }
