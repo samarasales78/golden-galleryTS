@@ -636,5 +636,37 @@ body {
       gap: 1.4rem;
     }
   
+    /* SOBRE */
+    .about {
+      min-height: auto;
+      padding: 1.8rem 1rem;
+  
+      opacity: 0;
+      transform: translateY(14px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+  
+    .about.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  
+    .about::before {
+      display: none;
+    }
+  
+    .about-frame {
+      padding: 1.2rem 1.4rem;
+      border-radius: 16px;
+      max-width: 100%;
+    }
+  
+    .about-frame::before {
+      border-radius: 16px;
+      background: radial-gradient(circle at top left,
+          rgba(212, 175, 55, 0.06),
+          transparent 65%);
+    }
+  
 
 }
