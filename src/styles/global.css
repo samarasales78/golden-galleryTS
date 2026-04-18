@@ -605,4 +605,36 @@ body {
     justify-content: center;
   }
 
+    /* FILTROS */
+    .filters {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+  
+      align-items: center;
+      justify-content: center;
+  
+      padding-left: 0;
+      margin: 0;
+    }
+  
+    .filters select {
+      font-size: 0.7rem;
+      padding: 0.7rem 5rem 0.7rem 1.3rem;
+  
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+    }
+  
+    .gallery-section { /* GALERIA */
+      padding: 3rem 1.2rem;
+    }
+  
+    .gallery-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.4rem;
+    }
+  
+
 }
