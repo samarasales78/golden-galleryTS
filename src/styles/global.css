@@ -668,5 +668,39 @@ body {
           transparent 65%);
     }
   
+    .about-text {
+      max-width: 100%;
+    }
+  
+    .about-subtitle {
+      font-size: 0.65rem;
+      letter-spacing: 0.22rem;
+      margin-bottom: 0.6rem;
+    }
+  
+    .about-text h2 {
+      font-size: 1.5rem;
+      line-height: 1.2;
+      margin-bottom: 0.9rem;
+    }
+  
+    .about-text p {
+      font-size: 0.85rem;
+      line-height: 1.4;
+      margin-bottom: 0.5rem;
+    }
+  
+    .about-text p:last-child {
+      margin-bottom: 0;
+    }
+  
+    .about-image {
+      display: none;
+    }  
+  
+    .footer {
+      padding: 3rem 0 1.5rem; 
+    }
+  
 
 }
