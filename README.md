@@ -1,73 +1,44 @@
-# React + TypeScript + Vite
+✧ THE ART OF LIFE - visual diary & sketches 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Art of Life é uma galeria digital criada para reunir e exibir meus desenhos de forma organizada e dinâmica.
+O projeto permite filtrar as artes por estilo e acompanhar minha evolução artística ao longo dos anos.
 
-Currently, two official plugins are available:
+✦ Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+◦ O projeto está hospedado e pode ser acessado através do link abaixo
 
-## React Compiler
+🔗 https://samarasales78.github.io/golden-gallery/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✦ Funcionalidades
 
-## Expanding the ESLint configuration
+⬡ Filtros por estilos:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+◦ Animes; 
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+◦ Arquitetura; 
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+◦ Aquarelas; 
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+◦ Ilustrações; 
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+◦ Realismo.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+⬡ Filtros por anos: 
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+◦ 2026, 2025, 2024, 2023 e desenhos de 2022 (ou anteriores). 
+
+⬡ Filtro especial: Evolução
+
+Mostra a evolução do desenho da Vanellope, refeito anualmente de 2019 a 2025. 
+
+✦ Layout responsivo (desktop e mobile)
+
+✦ Transições suaves para melhor experiência visual
+
+✦ Tecnologias Utilizadas
+
+HTML – estrutura do site; 
+
+CSS – estilização, responsividade e animações; 
+
+JavaScript – Renderização dinâmica da galeria, filtros por categoria e ano, lógica do filtro Evolução e eventos de interação. 
