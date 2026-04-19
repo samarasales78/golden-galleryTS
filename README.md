@@ -7,7 +7,7 @@ O projeto permite filtrar as artes por estilo e acompanhar minha evolução art�
 
 ◦ O projeto está hospedado e pode ser acessado através do link abaixo
 
-🔗 https://samarasales78.github.io/golden-gallery/
+🔗 https://samarasales78.github.io/golden-galleryTS/
 
 ✦ Funcionalidades
 
