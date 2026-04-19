@@ -11,19 +11,19 @@ type Drawing = {
 const drawings: Drawing[] = [
   {
     title: "Basílica de Santa Maria della Salute - Veneza, Itália",
-    image: "/img/arquitetura.jpeg",
+    image: "img/arquitetura.jpeg",
     category: "arquitetura",
     year: "2024"
   },
   {
     title: "Lua Inferior Cinco e Muzan Kibutsuji",
-    image: "/img/demonslayer.jpeg",
+    image: "img/demonslayer.jpeg",
     category: "anime",
     year: "2024"
   },
   {
     title: "St. Paul's Cathedral - Londres, Inglaterra",
-    image: "/img/catedral.jpeg",
+    image: "img/catedral.jpeg",
     category: "arquitetura",
     year: "2026"
   },
@@ -35,13 +35,13 @@ const drawings: Drawing[] = [
   },
   {
     title: "Zenitsu Fanart",
-    image: "/img/zenitsu.jpeg",
+    image: "img/zenitsu.jpeg",
     category: "anime",
     year: "2024"
   },
   {
     title: "Amelie de Xsbel",
-    image: "/img/amelie.jpeg",
+    image: "img/amelie.jpeg",
     category: "realismo",
     year: "2025"
   },
