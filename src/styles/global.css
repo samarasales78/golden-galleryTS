@@ -188,22 +188,40 @@ body {
 }
 
 /* IMAGEM */
-.hero-content {
-  flex: 1;
-}
-
 .hero-image {
-  flex: 0 0 200px; 
   display: flex;
   justify-content: center;
 }
 
 .hero-image img {
-  width: 100%;
-  max-width: 200px;
+  width: clamp(120px, 30vw, 300px);
   height: auto;
 }
 
+.hero-wrapper {
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  width: min(92vw, 720px);
+  height: auto;
+
+  padding: 1rem clamp(1.2rem, 3vw, 2rem);
+  gap: 1.2rem;
+
+  background-color: var(--preto);
+  border: 1.5px solid var(--dourado);
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+.hero-content,
+.hero-image {
+  flex: 0 0 auto;
+}
 /* TÍTULO EXPLORE POR CATEGORIAS */
 .explore-categories {
   position: relative;
