@@ -2,7 +2,7 @@
   "name": "golden-galleryts",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://samarasales78.github.io/golden-galleryts",
+  "homepage": "https://samarasales78.github.io/golden-galleryTS",
   "type": "module",
   "scripts": {
     "dev": "vite",

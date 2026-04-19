@@ -11,9 +11,10 @@ function Hero() {
           <p className="hero-subtitle">Sketches</p>
         </div>
 
-        <div className="hero-image">
-          <img src="/img/desenhoprincipal.jpeg" alt="Desenho principal" />
-        </div>
+        <img
+          src={import.meta.env.BASE_URL + "img/desenhoprincipal.jpeg"}
+          alt="Desenho principal"
+        />
 
       </div>
     </section>

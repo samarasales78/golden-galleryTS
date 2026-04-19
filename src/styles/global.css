@@ -14,10 +14,6 @@ body {
   background-color: var(--preto);
 }
 
-* {
-  cursor: url("/img/icons8-cursor-32.png") 0 0, auto;
-}
-
 /* NAVBAR */
 .navbar {
   display: flex;
@@ -192,19 +188,20 @@ body {
 }
 
 /* IMAGEM */
+.hero-content {
+  flex: 1;
+}
+
 .hero-image {
+  flex: 0 0 200px; 
   display: flex;
   justify-content: center;
 }
 
 .hero-image img {
-  width: clamp(120px, 30vw, 300px);
+  width: 100%;
+  max-width: 200px;
   height: auto;
-}
-
-.hero-content,
-.hero-image {
-  flex: 0 0 auto;
 }
 
 /* TÍTULO EXPLORE POR CATEGORIAS */
