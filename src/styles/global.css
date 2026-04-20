@@ -753,7 +753,9 @@ body {
   }
 
   .creditos {   /* direitos reservados */
-    font-size: 0.8rem;
-    padding-bottom: 1.5rem;
+    font-size: 0.65rem;
+    opacity: 0.6;
+    padding-bottom: 0.8rem;
+    text-align: center;
   }
-}
+  }
