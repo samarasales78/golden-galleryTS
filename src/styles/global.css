@@ -752,14 +752,7 @@ body {
     height: auto;
   }
 
-  .creditos {   /* direitos reservados */
-    font-size: 0.55rem !important;
-    opacity: 0.5;
-    padding-bottom: 0.5rem;
-    text-align: center;
-  }
-
   .creditos-text {
-    font-size: 0.55rem;
+    font-size: 0.83rem;
   }
 }
