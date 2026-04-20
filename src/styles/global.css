@@ -656,7 +656,7 @@ body {
   /* SOBRE */
   .about {
     min-height: auto;
-    padding: 1.8rem 1rem;
+    padding: 1.2rem 0.8rem;
 
     opacity: 0;
     transform: translateY(14px);
@@ -678,10 +678,10 @@ body {
     align-items: center;
     justify-content: space-between;
   
-    max-width: 480px; 
+    max-width: 420px; 
     margin: 0 auto;
-    padding: 1.4rem;
-    gap: 1rem;
+    padding: 1rem 1.2rem;
+    gap: 0.8rem;
   }
 
   .about-frame::before {
@@ -692,7 +692,7 @@ body {
   }
 
   .about-text {
-    width: 60%;
+    width: 65%;
     max-width: 60%;
   }
 
@@ -726,7 +726,7 @@ body {
 
   .about-image img {
     width: 100%;
-    max-width: 140px; 
+    max-width: 120px; 
     height: auto;
   }
   
@@ -753,9 +753,13 @@ body {
   }
 
   .creditos {   /* direitos reservados */
-    font-size: 0.65rem;
-    opacity: 0.6;
-    padding-bottom: 0.8rem;
+    font-size: 0.55rem !important;
+    opacity: 0.5;
+    padding-bottom: 0.5rem;
     text-align: center;
   }
+
+  .creditos-text {
+    font-size: 0.55rem;
   }
+}
