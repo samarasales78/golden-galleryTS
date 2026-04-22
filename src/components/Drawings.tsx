@@ -355,13 +355,13 @@ const drawings: Drawing[] = [
 
 /* EVOLUÇÃO */
 const evolucaoDrawings: Drawing[] = [
-  { image: "/img/2019.jpeg", title: "2019" },
-  { image: "/img/2020.jpeg", title: "2020" },
-  { image: "/img/2021.jpeg", title: "2021" },
-  { image: "/img/2022.jpeg", title: "2022" },
-  { image: "/img/2023.jpeg", title: "2023" },
-  { image: "/img/2024.jpeg", title: "2024" },
-  { image: "/img/2025.jpeg", title: "2025" }
+  { image: "img/2019.jpeg", title: "2019", category: "evolucao" },
+  { image: "img/2020.jpeg", title: "2020", category: "evolucao" },
+  { image: "img/2021.jpeg", title: "2021", category: "evolucao" },
+  { image: "img/2022.jpeg", title: "2022", category: "evolucao" },
+  { image: "img/2023.jpeg", title: "2023", category: "evolucao" },
+  { image: "img/2024.jpeg", title: "2024", category: "evolucao" },
+  { image: "img/2025.jpeg", title: "2025", category: "evolucao" }
 ];
 
 function Drawings() {
