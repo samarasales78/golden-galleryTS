@@ -13,7 +13,7 @@ const drawings: Drawing[] = [
     title: "Basílica de Santa Maria della Salute - Veneza, Itália",
     image: "img/arquitetura.jpeg",
     category: "arquitetura",
-    year: "2024"
+    year: "2023"
   },
   {
     title: "Lua Inferior Cinco e Muzan Kibutsuji",
@@ -61,7 +61,7 @@ const drawings: Drawing[] = [
     title: "Coliseu - Itália",
     image: "img/arquitetura2.jpeg",
     category: "arquitetura",
-    year: "2024"
+    year: "2023"
   },
   {
     title: "I  will always choose you - Damon Salvatore",
