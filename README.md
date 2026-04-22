@@ -34,11 +34,3 @@ Mostra a evolução do desenho da Vanellope, refeito anualmente de 2019 a 2025.
 ✦ Layout responsivo (desktop e mobile)
 
 ✦ Transições suaves para melhor experiência visual
-
-✦ Tecnologias Utilizadas
-
-HTML – estrutura do site; 
-
-CSS – estilização, responsividade e animações; 
-
-JavaScript – Renderização dinâmica da galeria, filtros por categoria e ano, lógica do filtro Evolução e eventos de interação. 
