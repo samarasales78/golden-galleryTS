@@ -184,6 +184,12 @@ const drawings: Drawing[] = [
     year: "2025"
   },
   {
+    title: "Catedral de Notre-Dame de Amiens - França",
+    image: "img/amiens.jpeg",
+    category: "arquitetura",
+    year: "2026"
+  },
+  {
     title: "'And it had all what art should be, unconscious, ideal and remote'",
     image: "img/esculturas.jpeg",
     category: "realismo",
