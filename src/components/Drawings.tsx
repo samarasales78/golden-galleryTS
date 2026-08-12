@@ -118,6 +118,12 @@ const drawings: Drawing[] = [
     year: "2026"
   },
   {
+    title: "Catedral de Notre-Dame de Amiens - França",
+    image: "img/amiens.jpeg",
+    category: "arquitetura",
+    year: "2026"
+  },
+  {
     title: "Catedral de Berlim - Alemanha",
     image: "img/berlim.jpeg",
     category: "arquitetura",
@@ -128,6 +134,12 @@ const drawings: Drawing[] = [
     image: "img/yourname.jpeg",
     category: "anime",
     year: "2025"
+  },
+  {
+    title: "Titanic, 14 de abril de 1912",
+    image: "img/japanese.jpeg",
+    category: "ilustracao",
+    year: "2026"
   },
   {
     title: "Goku e Shenlong fanart",
@@ -184,12 +196,6 @@ const drawings: Drawing[] = [
     year: "2025"
   },
   {
-    title: "Catedral de Notre-Dame de Amiens - França",
-    image: "img/amiens.jpeg",
-    category: "arquitetura",
-    year: "2026"
-  },
-  {
     title: "'And it had all what art should be, unconscious, ideal and remote'",
     image: "img/esculturas.jpeg",
     category: "realismo",
@@ -220,9 +226,9 @@ const drawings: Drawing[] = [
     year: "2025"
   },
   {
-    title: "O túmulo está vazio.",
-    image: "img/pascoa.jpeg",
-    category: "realismo",
+    title: "Thanks for the adventure - now go have a new one!",
+    image: "img/up.jpeg",
+    category: "arquitetura",
     year: "2026"
   },
   {
@@ -270,7 +276,7 @@ const drawings: Drawing[] = [
   {
     title: "Angra",
     image: "img/angra.jpeg",
-    category: "Conchas e Promessas",
+    category: "All the heroes go down, shed their blood on the land",
     year: "2025"
   },
   {
