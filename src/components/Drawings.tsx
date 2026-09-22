@@ -184,6 +184,12 @@ const drawings: Drawing[] = [
     year: "2022"
   },
   {
+    title: "Harry Potter",
+    image: "img/harry.jpeg",
+    category: "realismo",
+    year: "2026"
+  },
+  {
     title: "Cameron Boyce",
     image: "img/cameronboyce.jpeg",
     category: "realismo",
@@ -228,7 +234,7 @@ const drawings: Drawing[] = [
   {
     title: "Thanks for the adventure - now go have a new one!",
     image: "img/up.jpeg",
-    category: "arquitetura",
+    category: "ilustracao",
     year: "2026"
   },
   {
