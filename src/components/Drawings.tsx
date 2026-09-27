@@ -136,7 +136,7 @@ const drawings: Drawing[] = [
     year: "2025"
   },
   {
-    title: "Titanic, 14 de abril de 1912",
+    title: "Like cherry blossoms blooming in the mountains",
     image: "img/japanese.jpeg",
     category: "ilustracao",
     year: "2026"
