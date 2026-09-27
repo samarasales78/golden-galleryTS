@@ -602,7 +602,7 @@ body {
   }
 
   .hero-image {
-    transform: translateX(5px);
+    transform: translateX(-5px);
   }
 
   .hero-image img {
