@@ -601,15 +601,18 @@ body {
     padding: 2rem 1.4rem;
   }
 
-  /* CORREÇÃO APENAS DA IMAGEM DA HERO */
+  /* CORREÇÃO DA IMAGEM DA HERO NO MOBILE */
   .hero-image {
-    margin-left: auto;
+    width: 40%;
     display: flex;
     justify-content: flex-end;
+    flex-shrink: 0;
   }
 
   .hero-image img {
-    width: clamp(110px, 28vw, 220px);
+    width: 100%;
+    max-width: 220px;
+    height: auto;
   }
 
   .explore-categories {
