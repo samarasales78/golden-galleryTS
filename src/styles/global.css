@@ -607,6 +607,7 @@ body {
     display: flex;
     justify-content: flex-end;
     flex-shrink: 0;
+    transform: translateX(-10px);
   }
 
   .hero-image img {
