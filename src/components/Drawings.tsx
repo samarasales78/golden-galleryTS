@@ -16,12 +16,6 @@ const drawings: Drawing[] = [
     year: "2023"
   },
   {
-    title: "Lua Inferior Cinco e Muzan Kibutsuji",
-    image: "img/demonslayer.jpeg",
-    category: "anime",
-    year: "2024"
-  },
-  {
     title: "St. Paul's Cathedral - Londres, Inglaterra",
     image: "img/catedral.jpeg",
     category: "arquitetura",
@@ -34,16 +28,22 @@ const drawings: Drawing[] = [
     year: "2024"
   },
   {
+    title: "Amelie de Xsbel",
+    image: "img/amelie.jpeg",
+    category: "realismo",
+    year: "2025"
+  },
+  {
     title: "Zenitsu Fanart",
     image: "img/zenitsu.jpeg",
     category: "anime",
     year: "2024"
   },
   {
-    title: "Amelie de Xsbel",
-    image: "img/amelie.jpeg",
-    category: "realismo",
-    year: "2025"
+    title: "Lua Inferior Cinco e Muzan Kibutsuji",
+    image: "img/demonslayer.jpeg",
+    category: "anime",
+    year: "2024"
   },
   {
     title: "Carpas (koi) japonesas",
