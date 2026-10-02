@@ -38,7 +38,7 @@ function About() {
 
           <p>
             Este espaço é um diário visual. Aqui reúno meus desenhos favoritos,
-            entre realismo, anime, arquitetura e aquarelas.
+            entre realismos, animes, arquiteturas e aquarelas.
           </p>
 
           <p>
