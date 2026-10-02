@@ -40,10 +40,10 @@ const drawings: Drawing[] = [
     year: "2024"
   },
   {
-    title: "Lua Inferior Cinco e Muzan Kibutsuji",
-    image: "img/demonslayer.jpeg",
-    category: "anime",
-    year: "2024"
+    title: "Coliseu - Itália",
+    image: "img/arquitetura2.jpeg",
+    category: "arquitetura",
+    year: "2023"
   },
   {
     title: "Carpas (koi) japonesas",
@@ -58,10 +58,10 @@ const drawings: Drawing[] = [
     year: "2025"
   },
   {
-    title: "Coliseu - Itália",
-    image: "img/arquitetura2.jpeg",
-    category: "arquitetura",
-    year: "2023"
+    title: "Like cherry blossoms blooming in the mountains",
+    image: "img/japanese.jpeg",
+    category: "ilustracao",
+    year: "2026"
   },
   {
     title: "I  will always choose you - Damon Salvatore",
@@ -130,18 +130,6 @@ const drawings: Drawing[] = [
     year: "2024"
   },
   {
-    title: "Kimi no na wa Fanart",
-    image: "img/yourname.jpeg",
-    category: "anime",
-    year: "2025"
-  },
-  {
-    title: "Like cherry blossoms blooming in the mountains",
-    image: "img/japanese.jpeg",
-    category: "ilustracao",
-    year: "2026"
-  },
-  {
     title: "Goku e Shenlong fanart",
     image: "img/shenlong.jpeg",
     category: "anime",
@@ -154,6 +142,12 @@ const drawings: Drawing[] = [
     year: "2024"
   },
   {
+    title: "Lua Inferior Cinco e Muzan Kibutsuji",
+    image: "img/demonslayer.jpeg",
+    category: "anime",
+    year: "2024"
+  },
+  {
     title: "Akaza fanart (Demon Slayer)",
     image: "img/akaza.jpeg",
     category: "anime",
@@ -162,6 +156,12 @@ const drawings: Drawing[] = [
   {
     title: "Iguro fanart (Demon Slayer)",
     image: "img/iguro.jpeg",
+    category: "anime",
+    year: "2025"
+  },
+  {
+    title: "Kimi no na wa Fanart",
+    image: "img/yourname.jpeg",
     category: "anime",
     year: "2025"
   },
